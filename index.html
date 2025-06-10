@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ímpar ou Par</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Donkey Kong Modern</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Verificador de Ímpar ou Par</h2>
-        <input type="number" id="numero" class="input" placeholder="Digite um número">
-        <button class="btn" onclick="verificarParOuImpar()">Verificar</button>
-        <div id="resultado" class="resultado"></div>
+    <div id="game-container">
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+        
+        <div id="ui-container">
+            <div id="score">Score: 0</div>
+            <div id="lives">Lives: 3</div>
+            <div id="level">Level: 1</div>
+        </div>
+        
+        <div id="start-screen">
+            <h1>DONKEY KONG MODERN</h1>
+            <p>Resgate a Pauline do gorila furioso!</p>
+            <button id="start-button">COMEÇAR</button>
+        </div>
+        
+        <div id="game-over-screen">
+            <h1>GAME OVER</h1>
+            <p id="final-score">Sua pontuação: 0</p>
+            <button id="restart-button">JOGAR NOVAMENTE</button>
+        </div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="js/game.js"></script>
 </body>
 </html>
