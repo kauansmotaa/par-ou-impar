@@ -92,7 +92,7 @@ class Player extends GameObject {
             {x: 64, y: 0, width: 32, height: 48}
         ];
         this.spriteImage = new Image();
-        this.spriteImage.src = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSI0OCI+PHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9IjQ4IiBmaWxsPSIjMzQ5OGRiIi8+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTIiIGhlaWdodD0iMTAiIGZpbGw9IiNmZmYiLz48cmVjdCB4PSI0MiIgeT0iMTAiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMCIgZmlsbD0iI2ZmZiIvPjxyZWN0IHg9IjEwIiB5PSIyMCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjE4IiBmaWxsPSIjZTY1OTAwIi8+PHJlY3QgeD0iNDIiIHk9IjIwIiB3aWR0aD0iMTIiIGhlaWdodD0iMTgiIGZpbGw9IiNlNjU5MDAiLz48cmVjdCB4PSIyMiIgeT0iMTAiIHdpZHRoPSIxMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2U2NTkwMCIvPjwvc3ZnPg==';
+        this.spriteImage.src = 'https://www.flaticon.com/free-icon/mammal_13285818';
     }
     
     draw() {
@@ -169,7 +169,7 @@ class Barrel extends GameObject {
         this.rollingRight = true;
         this.falling = false;
         this.spriteImage = new Image();
-        this.spriteImage.src = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTIiIGZpbGw9IiM4YjQ1MTMiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI4IiBmaWxsPSIjYTYzYzA5Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNCIgZmlsbD0iIzhiNDUxMyIvPjwvc3ZnPg==';
+        this.spriteImage.src = 'https://www.flaticon.com/free-icon/asteroid_7480279';
         this.rotation = 0;
     }
     
